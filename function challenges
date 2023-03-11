@@ -2,3 +2,21 @@
 function myFunction(a, b) {
   return a.indexOf(b) === -1 ? a + b : b + a
 }
+
+//Write a function that takes two strings (a and b) as arguments. Return the number of times a occurs in b. 
+function countOccurrences(a, b) {
+  let count = 0;
+  let index = 0;
+  
+  // Loop through the string b until there are no more occurrences of a
+  while ((index = b.indexOf(a, index)) !== -1) {
+    count++;
+    index += a.length; // Move the index past the last occurrence of a
+  }
+  
+  return count;
+}
+
+console.log(countOccurrences("m", "elimo"));
+
+//answer: 1
