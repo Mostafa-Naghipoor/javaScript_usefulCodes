@@ -10,14 +10,14 @@ console.log(newNumbers)
 /////////////////////////////////////////////////////////////////////
 
 //forEach function
-var numbers = [1,2,3,4,5];
-let newNumbers=[];
-function double(number) {
-    return newNumbers.push(number* 2)
-}
+// var numbers = [1,2,3,4,5];
+// let newNumbers=[];
+// function double(number) {
+//     return newNumbers.push(number* 2)
+// }
 
-numbers.forEach(double)
-console.log(newNumbers)
+// numbers.forEach(double)
+// console.log(newNumbers)
 
 ////////////////////////////////////////////////////////////////////////////
 // filter function
