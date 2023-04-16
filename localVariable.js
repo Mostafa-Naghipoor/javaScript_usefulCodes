@@ -11,7 +11,7 @@ function showMessage() {
   ///////////////////////////
   //using a function in another function
   function foo(b) {
-    const a = 10;
+    const a = 13;
     return a + b + 11;
   }
   
