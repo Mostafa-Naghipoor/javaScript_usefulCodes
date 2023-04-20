@@ -22,8 +22,8 @@ console.log(newNumbers)
 ////////////////////////////////////////////////////////////////////////////
 // filter function
 var numbers = [1,2,3,4,5]
-const newNumbers = numbers.filter(function(num){
-  return num < 4
+const newNumbers = numbers.filter(function(number){
+  return number < 4
 })
 console.log(newNumbers)
 
