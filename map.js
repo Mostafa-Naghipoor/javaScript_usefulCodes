@@ -39,8 +39,8 @@ console.log(newNumbers)
 ///////////////////////////
 // find() method find the first number that meets the condition
 var numbers = [1,2,3,4,5];
-const newNumber = numbers.find(function(num){
-  return num < 3;
+const newNumber = numbers.find(function(number  ){
+  return number < 3;
 })
 console.log(newNumber)
 
