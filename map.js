@@ -32,10 +32,10 @@ console.log(newNumbers)
 // reduce method
 
 var numbers = [1,2,3,4,5]
-const newNumbers = numbers.reduce(function(accumulator, currentNumber){
+const newNum = numbers.reduce(function(accumulator, currentNumber){
   return accumulator + currentNumber;
 })
-console.log(newNumbers)
+console.log(newNum)
 ///////////////////////////
 // find() method find the first number that meets the condition
 var numbers = [1,2,3,4,5];
