@@ -32,7 +32,7 @@ console.log(newNumbers)
 // reduce method
 
 var numbers = [1,2,3,4,5]
-const newNumbers = numbers.reduce(function(accumulator, currentNumber){
+const newNumber = numbers.reduce(function(accumulator, currentNumber){
   return accumulator + currentNumber;
 })
 console.log(newNum)
